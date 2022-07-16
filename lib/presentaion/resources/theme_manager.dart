@@ -1,7 +1,7 @@
-import 'package:demo/presentaion/color_manager.dart';
-import 'package:demo/presentaion/font_manager.dart';
-import 'package:demo/presentaion/styles_manager.dart';
-import 'package:demo/presentaion/values_manager.dart';
+import 'package:demo/presentaion/resources/color_manager.dart';
+import 'package:demo/presentaion/resources/font_manager.dart';
+import 'package:demo/presentaion/resources/styles_manager.dart';
+import 'package:demo/presentaion/resources/values_manager.dart';
 import 'package:flutter/material.dart';
 
 ThemeData getApplicationTheme() {
@@ -101,7 +101,6 @@ ThemeData getApplicationTheme() {
           borderSide:
               BorderSide(color: ColorManager.primary, width: AppSize.s1_5),
           borderRadius: BorderRadius.circular(AppSize.s8)),
-
     ),
   );
 }
